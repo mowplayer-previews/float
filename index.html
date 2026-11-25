@@ -70,7 +70,7 @@ aside{width:300px;flex-shrink:0}
 .mow{position:absolute;right:20px;bottom:24px;z-index:5;font-family:Arial,Helvetica,sans-serif}
 .mow[hidden]{display:none}
 .mow.on{animation:mowIn .5s cubic-bezier(.2,.8,.2,1) both}
-@keyframes mowIn{from{transform:translateY(30px);opacity:0}to{transform:none;opacity:1}}
+@keyframes mowIn{from{transform:translateX(calc(100% + 40px))}to{transform:none}}
 .mow .x{position:absolute;right:0;top:-20px;width:16px;height:16px;border-radius:50%;border:1px solid #9a9a9a;background:#f4f4f4;color:#333;padding:0;cursor:pointer;display:flex;align-items:center;justify-content:center}
 .mow .box16{position:relative;width:270px;height:152px;background:#000;overflow:hidden}
 .m .mow .box16{width:240px;height:135px}
